@@ -1,0 +1,24 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# 1. Read the CSV file
+df = pd.read_csv('car_data.csv')
+
+# 2. Group the data by brand and body style, calculating mean prices
+grouped_data = df.groupby(['brand', 'body_style'])['price'].mean().unstack()
+
+# 3. Create the stacked column chart
+plt.figure(figsize=(12, 6))
+grouped_data.plot(kind='bar', stacked=True)
+
+# 4. Customize the chart
+plt.title('Average Car Prices by Brand and Body Style', fontsize=15)
+plt.xlabel('Brand', fontsize=12)
+plt.ylabel('Average Price', fontsize=12)
+plt.legend(title='Body Style', bbox_to_anchor=(1.05, 1), loc='upper left')
+plt.xticks(rotation=45, ha='right')
+plt.tight_layout()
+
+# 5. Show the chart
+plt.show()
