@@ -27,15 +27,26 @@ This project analyzes a dataset on car features and pricing to uncover insights 
 
 🔑 **Key Insights**  
 - **Car Price Distribution** 💸
-        
+      ![image](https://github.com/user-attachments/assets/f5ce0f25-45c6-4386-926a-7497ee1d0c79)
+
   - Chevrolet and Mercedes-Benz rank high in MSRP, especially among sedans.
-- **Average MSRPs by Brand** 🏆  
+- **Average MSRPs by Brand** 🏆
+    ![image](https://github.com/user-attachments/assets/8fe398cb-ffba-4ce4-97e8-2f7e6fe48dea)
+    ![image](https://github.com/user-attachments/assets/0b705fb8-67d7-4340-a149-9c4e095f3ec8)
+
+
   - Bugatti leads in pricing, with the coupe as a top style; economy brands like Plymouth have lower MSRPs.
-- **Transmission Type Impact** 🚗  
+- **Transmission Type Impact** 🚗
+      ![image](https://github.com/user-attachments/assets/91ea9604-fe16-408f-a521-c9fbecb73fc3)
+
   - Automatic transmissions generally increase MSRP, particularly for convertibles and coupes.
-- **Fuel Efficiency Trends** ⛽  
+- **Fuel Efficiency Trends** ⛽
+        ![image](https://github.com/user-attachments/assets/90f58da0-81fa-46fa-b24a-1e86df82b5d2)
+
   - Hatchbacks consistently show higher fuel efficiency, emphasizing the influence of body style.
-- **Horsepower, MPG & Price** 🔋  
+- **Horsepower, MPG & Price** 🔋
+       ![image](https://github.com/user-attachments/assets/15a94958-464d-4b18-871b-34437d165fc2)
+
   - Brands like Bugatti excel in horsepower and pricing, while Alfa Romeo and FIAT showcase top fuel efficiency.
 
 🏁 **Conclusion**  
