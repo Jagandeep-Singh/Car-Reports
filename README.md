@@ -27,7 +27,7 @@ This project analyzes a dataset on car features and pricing to uncover insights 
 
 🔑 **Key Insights**  
 - **Car Price Distribution** 💸
-      ![image](https://github.com/user-attachments/assets/f5ce0f25-45c6-4386-926a-7497ee1d0c79)
+      ![image](https://github.com/user-attachments/assets/0e11e533-fcf1-4c75-a4c7-da367707b1e8)
 
   - Chevrolet and Mercedes-Benz rank high in MSRP, especially among sedans.
 - **Average MSRPs by Brand** 🏆
